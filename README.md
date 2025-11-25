@@ -55,16 +55,16 @@ Este proyecto demuestra mi capacidad para **analizar el flujo de procesos** (Pro
 
 **1. Hallazgos del Embudo de Ventas**
    
-    - **Cuello de Botella:** La transición del evento *CartScreenAppear* **(Visualizar Carrito)** a *PaymentScreenSuccessful* **(Compra Exitosa)** es el punto con el mayor         drop-off en el flujo, indicando una posible fricción en el proceso de pago.
-    - **Tasa de Compra Final:** El **47.7 %** de los usuarios realizan todo el viaje desde la pagina principal *MainScreenAppear* **(Pantalla principal)** hasta concretar el       pago *PaymentScreenSuccessful* **(Pago exitoso)**.
-    - **Recomendación:** Enfocar los esfuerzos de optimización del rendimiento técnico en la pantalla de pago para **mejorar la eficiencia de conversión**.
+  - **Cuello de Botella:** La transición del evento *CartScreenAppear* **(Visualizar Carrito)** a *PaymentScreenSuccessful* **(Compra Exitosa)** es el punto con el mayor         drop-off en el flujo, indicando una posible fricción en el proceso de pago.
+  - **Tasa de Compra Final:** El **47.7 %** de los usuarios realizan todo el viaje desde la pagina principal *MainScreenAppear* **(Pantalla principal)** hasta concretar el       pago *PaymentScreenSuccessful* **(Pago exitoso)**.
+  - **Recomendación:** Enfocar los esfuerzos de optimización del rendimiento técnico en la pantalla de pago para **mejorar la eficiencia de conversión**.
 
 **2. Conclusión del Test A/A/B (Validación)**
 
-    - **Nivel de Significancia:** Se utilizó un nivel $\alpha$ para las pruebas de hipótesis.
-    - **Comparación A vs A (Control):** El Test A/A validó que los grupos de control eran indistinguibles estadísticamente, confirmando la fiabilidad del proceso de prueba.
-    - **Comparación A vs B (Test):** El análisis estadístico no encontró **diferencias estadísticamente significativas** entre la tasa de conversión de los grupos de control       y el grupo de prueba (Grupo B) en la mayoría de los eventos.
-    - **Decisión Final:** Dado que la nueva versión (B) no mostró un rendimiento diferente (ni peor ni mejor) al grupo de control, la recomendación es que **el cambio de           fuente es seguro de implementar** desde la perspectiva de la conversión y el flujo de usuario, ya que no representa un riesgo operativo.
+  - **Nivel de Significancia:** Se utilizó un nivel $\alpha$ para las pruebas de hipótesis.
+  - **Comparación A vs A (Control):** El Test A/A validó que los grupos de control eran indistinguibles estadísticamente, confirmando la fiabilidad del proceso de prueba.
+  - **Comparación A vs B (Test):** El análisis estadístico no encontró **diferencias estadísticamente significativas** entre la tasa de conversión de los grupos de control       y el grupo de prueba (Grupo B) en la mayoría de los eventos.
+  - **Decisión Final:** Dado que la nueva versión (B) no mostró un rendimiento diferente (ni peor ni mejor) al grupo de control, la recomendación es que **el cambio de           fuente es seguro de implementar** desde la perspectiva de la conversión y el flujo de usuario, ya que no representa un riesgo operativo.
 
 ## Instrucciones de Puesta en Marcha 🗒️👩‍💻
 
